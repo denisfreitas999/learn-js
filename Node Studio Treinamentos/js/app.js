@@ -4,8 +4,12 @@
 
 //window.document.getElementById("titulo")
 
-window.console.log(window.document.getElementById("titulo")) // informa o elemento buscando pelo Id
+//window.console.log(window.document.getElementById("titulo")) // informa o elemento buscando pelo Id
 
-console.log(window.document.getElementById("titulo").innerHTML) // informa somente o texto sem as tags html
+//console.log(window.document.getElementById("titulo").innerHTML) // informa somente o texto sem as tags html
 
+//console.log(screen.width)
+   
+//console.log(window)
 
+// A partir do window.document são manipulados os elementos HTML, o window pode ser omitido pois ele é o objeto principal, ou seja, todos os outros estão dentro dele.
