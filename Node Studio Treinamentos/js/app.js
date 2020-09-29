@@ -13,3 +13,19 @@
 //console.log(window)
 
 // A partir do window.document são manipulados os elementos HTML, o window pode ser omitido pois ele é o objeto principal, ou seja, todos os outros estão dentro dele.
+
+// BOM (BROWSER OBJECT MODEL) - Abriga todos os objetos da familia window inclusive ele mesmo
+// DOM (DOCUMENT OBJECT MODEL) - Objeto que engloba os objetos e métodos de modificação no documento HTML.
+
+console.log(screen)
+console.log(navigator)
+console.log(location)
+console.log(history)
+
+function voltar() {
+    history.back()
+}
+
+function adiantar(){
+    history.forward()
+}
